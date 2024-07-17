@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/end_demo.rpy", line 31, in script
+    return
+Exception: Could not find return label (u'game/script.rpy', 1719051592, 10).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/end_demo.rpy", line 31, in script
+    return
+  File "renpy/ast.py", line 1567, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "renpy/execution.py", line 710, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'game/script.rpy', 1719051592, 10).
+
+Windows-10-10.0.26100
+Ren'Py 7.4.11.2266
+DDLC Karanlığın Zinciri d2.0B
+Sat Jun 22 13:24:28 2024

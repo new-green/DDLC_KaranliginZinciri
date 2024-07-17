@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label endgame is defined twice, at File "game/end.rpy", line 1:
+label endgame(pause_length=4.0):
+and File "game/end_demo.rpy", line 23:
+label endgame(pause_length=4.0):
+
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Sat Jun 22 13:23:58 2024
